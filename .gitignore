@@ -221,3 +221,7 @@ __marimo__/
 .DS_Store
 
 *.dylib
+
+data/indices/*
+data/runs/*
+data/qrels/*
