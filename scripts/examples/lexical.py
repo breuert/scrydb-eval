@@ -126,11 +126,27 @@ def main(argv: "list[str] | None" = None) -> int:
         default=1000,
         help="How many BM25 candidates the rerank stage sees (default: %(default)s)",
     )
-    # FTS5's own bm25() defaults are b=0.75, k1=1.2; scrydb defaults to
-    # 0.6/0.9, the values Anserini uses for its BEIR baselines, so runs made
-    # here are comparable with the published ones.
-    parser.add_argument("--bm25-b", type=float, default=0.6, help="BM25 b (default: %(default)s)")
-    parser.add_argument("--bm25-k1", type=float, default=0.9, help="BM25 k1 (default: %(default)s)")
+    # These reach FTS5's bm25() as its trailing arguments, which are per-column
+    # weights -- not BM25's b and k1. FTS5 fixes those at compile time
+    # (k1=1.2, b=0.75) and offers no way to set them, so despite the names
+    # neither flag retunes BM25. documents_fts is fts5(id UNINDEXED, text):
+    # the first weight lands on the UNINDEXED column and provably changes
+    # nothing, the second reweights the text column and does move scores. The
+    # defaults are scrydb's own, so a run made here matches the published ones.
+    parser.add_argument(
+        "--bm25-b",
+        type=float,
+        default=0.6,
+        help="FTS5 bm25() weight for the UNINDEXED id column -- inert, kept only to "
+             "mirror batch_search's signature (default: %(default)s)",
+    )
+    parser.add_argument(
+        "--bm25-k1",
+        type=float,
+        default=0.9,
+        help="FTS5 bm25() weight for the text column -- rescales and can reorder "
+             "results, but it is not BM25's k1 (default: %(default)s)",
+    )
     parser.add_argument(
         "--raw",
         action="store_true",
