@@ -225,3 +225,4 @@ __marimo__/
 data/indices/*
 data/runs/*
 data/qrels/*
+data/mteb/*
