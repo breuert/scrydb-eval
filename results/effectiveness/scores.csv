@@ -1,0 +1,449 @@
+dataset,method_key,method,measure,value
+arguana,bm25,BM25,AP,0.40452852051041577
+arguana,bm25,BM25,RR,0.40452852051041577
+arguana,bm25,BM25,P@10,0.07773826458036984
+arguana,bm25,BM25,nDCG@10,0.48557119260994236
+arguana,bm25_hamming,BM25 + Hamming,AP,0.6428529333141154
+arguana,bm25_hamming,BM25 + Hamming,RR,0.6428529333141154
+arguana,bm25_hamming,BM25 + Hamming,P@10,0.09537695590327169
+arguana,bm25_hamming,BM25 + Hamming,nDCG@10,0.7167994029486128
+arguana,bm25_cosine_int8,BM25 + cos_int8,AP,0.6481781552231892
+arguana,bm25_cosine_int8,BM25 + cos_int8,RR,0.6481781552231892
+arguana,bm25_cosine_int8,BM25 + cos_int8,P@10,0.09587482219061168
+arguana,bm25_cosine_int8,BM25 + cos_int8,nDCG@10,0.7225412598779009
+arguana,bm25_cosine_float,BM25 + cos_float,AP,0.6491329890988254
+arguana,bm25_cosine_float,BM25 + cos_float,RR,0.6491329890988254
+arguana,bm25_cosine_float,BM25 + cos_float,P@10,0.09601706970128022
+arguana,bm25_cosine_float,BM25 + cos_float,nDCG@10,0.7236434841430016
+arguana,hamming,Hamming,AP,0.6426891355333836
+arguana,hamming,Hamming,RR,0.6426891355333836
+arguana,hamming,Hamming,P@10,0.09537695590327169
+arguana,hamming,Hamming,nDCG@10,0.716564038029305
+arguana,hamming_cosine_int8,Hamming + cos_int8,AP,0.6479824682118772
+arguana,hamming_cosine_int8,Hamming + cos_int8,RR,0.6479824682118772
+arguana,hamming_cosine_int8,Hamming + cos_int8,P@10,0.09601706970128022
+arguana,hamming_cosine_int8,Hamming + cos_int8,nDCG@10,0.7226199556256379
+arguana,hamming_cosine_float,Hamming + cos_float,AP,0.6489575278612743
+arguana,hamming_cosine_float,Hamming + cos_float,RR,0.6489575278612743
+arguana,hamming_cosine_float,Hamming + cos_float,P@10,0.09608819345661448
+arguana,hamming_cosine_float,Hamming + cos_float,nDCG@10,0.7235380272602706
+arguana,cosine_int8,cos_int8,AP,0.6479824682118772
+arguana,cosine_int8,cos_int8,RR,0.6479824682118772
+arguana,cosine_int8,cos_int8,P@10,0.09601706970128022
+arguana,cosine_int8,cos_int8,nDCG@10,0.7226199556256379
+arguana,cosine_int8_cosine_float,cos_int8 + cos_float,AP,0.6489575278612743
+arguana,cosine_int8_cosine_float,cos_int8 + cos_float,RR,0.6489575278612743
+arguana,cosine_int8_cosine_float,cos_int8 + cos_float,P@10,0.09608819345661448
+arguana,cosine_int8_cosine_float,cos_int8 + cos_float,nDCG@10,0.7235380272602706
+arguana,cosine_float,cos_float,AP,0.6489575278612743
+arguana,cosine_float,cos_float,RR,0.6489575278612743
+arguana,cosine_float,cos_float,P@10,0.09608819345661448
+arguana,cosine_float,cos_float,nDCG@10,0.7235380272602706
+arguana,hybrid_hamming,RRF(Hamming),AP,0.5477836637189172
+arguana,hybrid_hamming,RRF(Hamming),RR,0.5477836637189172
+arguana,hybrid_hamming,RRF(Hamming),P@10,0.08933143669985774
+arguana,hybrid_hamming,RRF(Hamming),nDCG@10,0.6266088699973383
+arguana,hybrid_cosine_int8,RRF(cos_int8),AP,0.5491630713332794
+arguana,hybrid_cosine_int8,RRF(cos_int8),RR,0.5491630713332794
+arguana,hybrid_cosine_int8,RRF(cos_int8),P@10,0.08982930298719771
+arguana,hybrid_cosine_int8,RRF(cos_int8),nDCG@10,0.6291132158287884
+arguana,hybrid_cosine_float,RRF(cos_float),AP,0.5505355834344648
+arguana,hybrid_cosine_float,RRF(cos_float),RR,0.5505355834344648
+arguana,hybrid_cosine_float,RRF(cos_float),P@10,0.08961593172119486
+arguana,hybrid_cosine_float,RRF(cos_float),nDCG@10,0.629568955446487
+arguana,baseline,MTEB (Qwen3-8B),AP,0.70514
+arguana,baseline,MTEB (Qwen3-8B),RR,0.705374
+arguana,baseline,MTEB (Qwen3-8B),P@10,0.0968
+arguana,baseline,MTEB (Qwen3-8B),nDCG@10,0.76852
+fiqa,bm25,BM25,AP,0.20488318005909253
+fiqa,bm25,BM25,RR,0.3136937538541938
+fiqa,bm25,BM25,P@10,0.06805555555555555
+fiqa,bm25,BM25,nDCG@10,0.24671186010542986
+fiqa,bm25_hamming,BM25 + Hamming,AP,0.5250854038485935
+fiqa,bm25_hamming,BM25 + Hamming,RR,0.6841014074217767
+fiqa,bm25_hamming,BM25 + Hamming,P@10,0.1552469135802469
+fiqa,bm25_hamming,BM25 + Hamming,nDCG@10,0.59220350324722
+fiqa,bm25_cosine_int8,BM25 + cos_int8,AP,0.5304188814020258
+fiqa,bm25_cosine_int8,BM25 + cos_int8,RR,0.693352630280617
+fiqa,bm25_cosine_int8,BM25 + cos_int8,P@10,0.15833333333333335
+fiqa,bm25_cosine_int8,BM25 + cos_int8,nDCG@10,0.5999033897378603
+fiqa,bm25_cosine_float,BM25 + cos_float,AP,0.5293108765907876
+fiqa,bm25_cosine_float,BM25 + cos_float,RR,0.6888906737717246
+fiqa,bm25_cosine_float,BM25 + cos_float,P@10,0.1580246913580247
+fiqa,bm25_cosine_float,BM25 + cos_float,nDCG@10,0.5982633327667132
+fiqa,hamming,Hamming,AP,0.5674276717962926
+fiqa,hamming,Hamming,RR,0.710974031736123
+fiqa,hamming,Hamming,P@10,0.17253086419753086
+fiqa,hamming,Hamming,nDCG@10,0.6347238400269286
+fiqa,hamming_cosine_int8,Hamming + cos_int8,AP,0.5779558549717246
+fiqa,hamming_cosine_int8,Hamming + cos_int8,RR,0.7257313911481637
+fiqa,hamming_cosine_int8,Hamming + cos_int8,P@10,0.17685185185185187
+fiqa,hamming_cosine_int8,Hamming + cos_int8,nDCG@10,0.6489105769153024
+fiqa,hamming_cosine_float,Hamming + cos_float,AP,0.5754884755631252
+fiqa,hamming_cosine_float,Hamming + cos_float,RR,0.7210262553634564
+fiqa,hamming_cosine_float,Hamming + cos_float,P@10,0.17577160493827163
+fiqa,hamming_cosine_float,Hamming + cos_float,nDCG@10,0.6453355936358999
+fiqa,cosine_int8,cos_int8,AP,0.5779623400870939
+fiqa,cosine_int8,cos_int8,RR,0.7257309838040126
+fiqa,cosine_int8,cos_int8,P@10,0.17685185185185187
+fiqa,cosine_int8,cos_int8,nDCG@10,0.6489105769153024
+fiqa,cosine_int8_cosine_float,cos_int8 + cos_float,AP,0.5754941796686125
+fiqa,cosine_int8_cosine_float,cos_int8 + cos_float,RR,0.7210259861689863
+fiqa,cosine_int8_cosine_float,cos_int8 + cos_float,P@10,0.17577160493827163
+fiqa,cosine_int8_cosine_float,cos_int8 + cos_float,nDCG@10,0.6453355936358999
+fiqa,cosine_float,cos_float,AP,0.575497414425897
+fiqa,cosine_float,cos_float,RR,0.7210259335367714
+fiqa,cosine_float,cos_float,P@10,0.17577160493827163
+fiqa,cosine_float,cos_float,nDCG@10,0.6453355936358999
+fiqa,hybrid_hamming,RRF(Hamming),AP,0.38265523889058023
+fiqa,hybrid_hamming,RRF(Hamming),RR,0.5328927734739001
+fiqa,hybrid_hamming,RRF(Hamming),P@10,0.1259259259259259
+fiqa,hybrid_hamming,RRF(Hamming),nDCG@10,0.44563478355236913
+fiqa,hybrid_cosine_int8,RRF(cos_int8),AP,0.39219445952455817
+fiqa,hybrid_cosine_int8,RRF(cos_int8),RR,0.5425662083455961
+fiqa,hybrid_cosine_int8,RRF(cos_int8),P@10,0.1270061728395062
+fiqa,hybrid_cosine_int8,RRF(cos_int8),nDCG@10,0.4535850859092883
+fiqa,hybrid_cosine_float,RRF(cos_float),AP,0.39049409124375073
+fiqa,hybrid_cosine_float,RRF(cos_float),RR,0.5418457357183983
+fiqa,hybrid_cosine_float,RRF(cos_float),P@10,0.12731481481481483
+fiqa,hybrid_cosine_float,RRF(cos_float),nDCG@10,0.45261868329775345
+fiqa,baseline,MTEB (Qwen3-8B),AP,0.57834
+fiqa,baseline,MTEB (Qwen3-8B),RR,0.724407
+fiqa,baseline,MTEB (Qwen3-8B),P@10,0.17469
+fiqa,baseline,MTEB (Qwen3-8B),nDCG@10,0.64567
+nfcorpus,bm25,BM25,AP,0.15108673200578285
+nfcorpus,bm25,BM25,RR,0.5252590156387196
+nfcorpus,bm25,BM25,P@10,0.2309597523219814
+nfcorpus,bm25,BM25,nDCG@10,0.3226738935336881
+nfcorpus,bm25_hamming,BM25 + Hamming,AP,0.1824424076463506
+nfcorpus,bm25_hamming,BM25 + Hamming,RR,0.6153338108108192
+nfcorpus,bm25_hamming,BM25 + Hamming,P@10,0.2839009287925697
+nfcorpus,bm25_hamming,BM25 + Hamming,nDCG@10,0.3879482432566859
+nfcorpus,bm25_cosine_int8,BM25 + cos_int8,AP,0.18057409030293048
+nfcorpus,bm25_cosine_int8,BM25 + cos_int8,RR,0.603783890628057
+nfcorpus,bm25_cosine_int8,BM25 + cos_int8,P@10,0.28049535603715176
+nfcorpus,bm25_cosine_int8,BM25 + cos_int8,nDCG@10,0.3838143217681745
+nfcorpus,bm25_cosine_float,BM25 + cos_float,AP,0.18199221501858898
+nfcorpus,bm25_cosine_float,BM25 + cos_float,RR,0.6062299565676368
+nfcorpus,bm25_cosine_float,BM25 + cos_float,P@10,0.2823529411764706
+nfcorpus,bm25_cosine_float,BM25 + cos_float,nDCG@10,0.385858712066019
+nfcorpus,hamming,Hamming,AP,0.21747863330579034
+nfcorpus,hamming,Hamming,RR,0.6196716527308201
+nfcorpus,hamming,Hamming,P@10,0.3012383900928793
+nfcorpus,hamming,Hamming,nDCG@10,0.4059629925242401
+nfcorpus,hamming_cosine_int8,Hamming + cos_int8,AP,0.22020501642344473
+nfcorpus,hamming_cosine_int8,Hamming + cos_int8,RR,0.6155181396969528
+nfcorpus,hamming_cosine_int8,Hamming + cos_int8,P@10,0.30030959752321984
+nfcorpus,hamming_cosine_int8,Hamming + cos_int8,nDCG@10,0.40582764979052927
+nfcorpus,hamming_cosine_float,Hamming + cos_float,AP,0.22212287519442142
+nfcorpus,hamming_cosine_float,Hamming + cos_float,RR,0.6200050859906222
+nfcorpus,hamming_cosine_float,Hamming + cos_float,P@10,0.3037151702786378
+nfcorpus,hamming_cosine_float,Hamming + cos_float,nDCG@10,0.40954014055291776
+nfcorpus,cosine_int8,cos_int8,AP,0.2202771658044821
+nfcorpus,cosine_int8,cos_int8,RR,0.615518277132801
+nfcorpus,cosine_int8,cos_int8,P@10,0.30030959752321984
+nfcorpus,cosine_int8,cos_int8,nDCG@10,0.40582764979052927
+nfcorpus,cosine_int8_cosine_float,cos_int8 + cos_float,AP,0.22223872392765126
+nfcorpus,cosine_int8_cosine_float,cos_int8 + cos_float,RR,0.6200081500982636
+nfcorpus,cosine_int8_cosine_float,cos_int8 + cos_float,P@10,0.3037151702786378
+nfcorpus,cosine_int8_cosine_float,cos_int8 + cos_float,nDCG@10,0.40954014055291776
+nfcorpus,cosine_float,cos_float,AP,0.22225357563252005
+nfcorpus,cosine_float,cos_float,RR,0.6200113672395934
+nfcorpus,cosine_float,cos_float,P@10,0.3037151702786378
+nfcorpus,cosine_float,cos_float,nDCG@10,0.40954014055291776
+nfcorpus,hybrid_hamming,RRF(Hamming),AP,0.2073015953245596
+nfcorpus,hybrid_hamming,RRF(Hamming),RR,0.6040487329120029
+nfcorpus,hybrid_hamming,RRF(Hamming),P@10,0.28761609907120744
+nfcorpus,hybrid_hamming,RRF(Hamming),nDCG@10,0.3885835988091011
+nfcorpus,hybrid_cosine_int8,RRF(cos_int8),AP,0.21179090059172215
+nfcorpus,hybrid_cosine_int8,RRF(cos_int8),RR,0.6059328036407592
+nfcorpus,hybrid_cosine_int8,RRF(cos_int8),P@10,0.28668730650154794
+nfcorpus,hybrid_cosine_int8,RRF(cos_int8),nDCG@10,0.3912063336414216
+nfcorpus,hybrid_cosine_float,RRF(cos_float),AP,0.21188170029504955
+nfcorpus,hybrid_cosine_float,RRF(cos_float),RR,0.6025198133036737
+nfcorpus,hybrid_cosine_float,RRF(cos_float),P@10,0.28637770897832815
+nfcorpus,hybrid_cosine_float,RRF(cos_float),nDCG@10,0.3894484603927024
+nfcorpus,baseline,MTEB (Qwen3-8B),AP,0.22544
+nfcorpus,baseline,MTEB (Qwen3-8B),RR,0.626503
+nfcorpus,baseline,MTEB (Qwen3-8B),P@10,0.30774
+nfcorpus,baseline,MTEB (Qwen3-8B),nDCG@10,0.41448
+quora,bm25,BM25,AP,0.7592376721195108
+quora,bm25,BM25,RR,0.7973167101269488
+quora,bm25,BM25,P@10,0.12119
+quora,bm25,BM25,nDCG@10,0.8007488789799662
+quora,bm25_hamming,BM25 + Hamming,AP,0.8606857591401069
+quora,bm25_hamming,BM25 + Hamming,RR,0.8819971488485912
+quora,bm25_hamming,BM25 + Hamming,P@10,0.13534000000000002
+quora,bm25_hamming,BM25 + Hamming,nDCG@10,0.8909365545852492
+quora,bm25_cosine_int8,BM25 + cos_int8,AP,0.8621306966677148
+quora,bm25_cosine_int8,BM25 + cos_int8,RR,0.883034936935575
+quora,bm25_cosine_int8,BM25 + cos_int8,P@10,0.13576
+quora,bm25_cosine_int8,BM25 + cos_int8,nDCG@10,0.8922648051663822
+quora,bm25_cosine_float,BM25 + cos_float,AP,0.8622985014151286
+quora,bm25_cosine_float,BM25 + cos_float,RR,0.8832583060810201
+quora,bm25_cosine_float,BM25 + cos_float,P@10,0.13582
+quora,bm25_cosine_float,BM25 + cos_float,nDCG@10,0.8924858257741322
+quora,hamming,Hamming,AP,0.8591612606752825
+quora,hamming,Hamming,RR,0.8797013002496132
+quora,hamming,Hamming,P@10,0.13539
+quora,hamming,Hamming,nDCG@10,0.8892002593810121
+quora,hamming_cosine_int8,Hamming + cos_int8,AP,0.8609094797762292
+quora,hamming_cosine_int8,Hamming + cos_int8,RR,0.8812249181087692
+quora,hamming_cosine_int8,Hamming + cos_int8,P@10,0.1355
+quora,hamming_cosine_int8,Hamming + cos_int8,nDCG@10,0.8903858063439691
+quora,hamming_cosine_float,Hamming + cos_float,AP,0.8609486743392001
+quora,hamming_cosine_float,Hamming + cos_float,RR,0.8812568476224407
+quora,hamming_cosine_float,Hamming + cos_float,P@10,0.13560999999999998
+quora,hamming_cosine_float,Hamming + cos_float,nDCG@10,0.8904853663615413
+quora,cosine_int8,cos_int8,AP,0.8609092333943196
+quora,cosine_int8,cos_int8,RR,0.8812249181087692
+quora,cosine_int8,cos_int8,P@10,0.1355
+quora,cosine_int8,cos_int8,nDCG@10,0.8903858063439691
+quora,cosine_int8_cosine_float,cos_int8 + cos_float,AP,0.8609484462312572
+quora,cosine_int8_cosine_float,cos_int8 + cos_float,RR,0.8812568476224407
+quora,cosine_int8_cosine_float,cos_int8 + cos_float,P@10,0.13560999999999998
+quora,cosine_int8_cosine_float,cos_int8 + cos_float,nDCG@10,0.8904853663615413
+quora,cosine_float,cos_float,AP,0.8609485522117116
+quora,cosine_float,cos_float,RR,0.8812568476224407
+quora,cosine_float,cos_float,P@10,0.13560999999999998
+quora,cosine_float,cos_float,nDCG@10,0.8904853663615413
+quora,hybrid_hamming,RRF(Hamming),AP,0.8441753872926029
+quora,hybrid_hamming,RRF(Hamming),RR,0.8733523290717485
+quora,hybrid_hamming,RRF(Hamming),P@10,0.13299
+quora,hybrid_hamming,RRF(Hamming),nDCG@10,0.8778840673203616
+quora,hybrid_cosine_int8,RRF(cos_int8),AP,0.8447074513110603
+quora,hybrid_cosine_int8,RRF(cos_int8),RR,0.8737142270075572
+quora,hybrid_cosine_int8,RRF(cos_int8),P@10,0.13313000000000003
+quora,hybrid_cosine_int8,RRF(cos_int8),nDCG@10,0.8783909780297552
+quora,hybrid_cosine_float,RRF(cos_float),AP,0.844859131468236
+quora,hybrid_cosine_float,RRF(cos_float),RR,0.8738217778298757
+quora,hybrid_cosine_float,RRF(cos_float),P@10,0.13296
+quora,hybrid_cosine_float,RRF(cos_float),nDCG@10,0.87829722267992
+quora,baseline,MTEB (Qwen3-8B),AP,0.85884
+quora,baseline,MTEB (Qwen3-8B),RR,0.879235
+quora,baseline,MTEB (Qwen3-8B),P@10,0.13568
+quora,baseline,MTEB (Qwen3-8B),nDCG@10,0.88901
+scidocs,bm25,BM25,AP,0.10888589352775595
+scidocs,bm25,BM25,RR,0.2853891829468963
+scidocs,bm25,BM25,P@10,0.0809
+scidocs,bm25,BM25,nDCG@10,0.15654629330672878
+scidocs,bm25_hamming,BM25 + Hamming,AP,0.2160646483405547
+scidocs,bm25_hamming,BM25 + Hamming,RR,0.4825726869174122
+scidocs,bm25_hamming,BM25 + Hamming,P@10,0.15640000000000004
+scidocs,bm25_hamming,BM25 + Hamming,nDCG@10,0.30004869543805573
+scidocs,bm25_cosine_int8,BM25 + cos_int8,AP,0.2210546857693248
+scidocs,bm25_cosine_int8,BM25 + cos_int8,RR,0.4918517688364604
+scidocs,bm25_cosine_int8,BM25 + cos_int8,P@10,0.16090000000000002
+scidocs,bm25_cosine_int8,BM25 + cos_int8,nDCG@10,0.30828733934435
+scidocs,bm25_cosine_float,BM25 + cos_float,AP,0.22148040307438654
+scidocs,bm25_cosine_float,BM25 + cos_float,RR,0.4924782139967271
+scidocs,bm25_cosine_float,BM25 + cos_float,P@10,0.1608
+scidocs,bm25_cosine_float,BM25 + cos_float,nDCG@10,0.3084071843901894
+scidocs,hamming,Hamming,AP,0.23630820895908228
+scidocs,hamming,Hamming,RR,0.49466842284304485
+scidocs,hamming,Hamming,P@10,0.16240000000000002
+scidocs,hamming,Hamming,nDCG@10,0.309141399580735
+scidocs,hamming_cosine_int8,Hamming + cos_int8,AP,0.243002801658542
+scidocs,hamming_cosine_int8,Hamming + cos_int8,RR,0.5003160165797674
+scidocs,hamming_cosine_int8,Hamming + cos_int8,P@10,0.1698
+scidocs,hamming_cosine_int8,Hamming + cos_int8,nDCG@10,0.319923708731633
+scidocs,hamming_cosine_float,Hamming + cos_float,AP,0.24355903725962366
+scidocs,hamming_cosine_float,Hamming + cos_float,RR,0.5034538421529089
+scidocs,hamming_cosine_float,Hamming + cos_float,P@10,0.16910000000000003
+scidocs,hamming_cosine_float,Hamming + cos_float,nDCG@10,0.3199129256181211
+scidocs,cosine_int8,cos_int8,AP,0.24304566859302723
+scidocs,cosine_int8,cos_int8,RR,0.5003144075045933
+scidocs,cosine_int8,cos_int8,P@10,0.1698
+scidocs,cosine_int8,cos_int8,nDCG@10,0.319923708731633
+scidocs,cosine_int8_cosine_float,cos_int8 + cos_float,AP,0.243601559643312
+scidocs,cosine_int8_cosine_float,cos_int8 + cos_float,RR,0.5034524034036275
+scidocs,cosine_int8_cosine_float,cos_int8 + cos_float,P@10,0.16910000000000003
+scidocs,cosine_int8_cosine_float,cos_int8 + cos_float,nDCG@10,0.3199129256181211
+scidocs,cosine_float,cos_float,AP,0.24360729898658476
+scidocs,cosine_float,cos_float,RR,0.50345138090874
+scidocs,cosine_float,cos_float,P@10,0.16910000000000003
+scidocs,cosine_float,cos_float,nDCG@10,0.3199129256181211
+scidocs,hybrid_hamming,RRF(Hamming),AP,0.18153132762362215
+scidocs,hybrid_hamming,RRF(Hamming),RR,0.4140226788850269
+scidocs,hybrid_hamming,RRF(Hamming),P@10,0.12320000000000002
+scidocs,hybrid_hamming,RRF(Hamming),nDCG@10,0.23842199008558
+scidocs,hybrid_cosine_int8,RRF(cos_int8),AP,0.1847681285317828
+scidocs,hybrid_cosine_int8,RRF(cos_int8),RR,0.41547835007967127
+scidocs,hybrid_cosine_int8,RRF(cos_int8),P@10,0.12430000000000001
+scidocs,hybrid_cosine_int8,RRF(cos_int8),nDCG@10,0.24058109345278206
+scidocs,hybrid_cosine_float,RRF(cos_float),AP,0.18355427009903244
+scidocs,hybrid_cosine_float,RRF(cos_float),RR,0.41295890863569096
+scidocs,hybrid_cosine_float,RRF(cos_float),P@10,0.1235
+scidocs,hybrid_cosine_float,RRF(cos_float),nDCG@10,0.23880182537952893
+scidocs,baseline,MTEB (Qwen3-8B),AP,0.25173
+scidocs,baseline,MTEB (Qwen3-8B),RR,0.509962
+scidocs,baseline,MTEB (Qwen3-8B),P@10,0.1727
+scidocs,baseline,MTEB (Qwen3-8B),nDCG@10,0.32742
+scifact,bm25,BM25,AP,0.6419371286756018
+scifact,bm25,BM25,RR,0.6526607707816089
+scifact,bm25,BM25,P@10,0.08899999999999998
+scifact,bm25,BM25,nDCG@10,0.680765827044601
+scifact,bm25_hamming,BM25 + Hamming,AP,0.7404192941086127
+scifact,bm25_hamming,BM25 + Hamming,RR,0.7477663119056306
+scifact,bm25_hamming,BM25 + Hamming,P@10,0.10333333333333332
+scifact,bm25_hamming,BM25 + Hamming,nDCG@10,0.7819247077673914
+scifact,bm25_cosine_int8,BM25 + cos_int8,AP,0.7445077529001587
+scifact,bm25_cosine_int8,BM25 + cos_int8,RR,0.75158632432873
+scifact,bm25_cosine_int8,BM25 + cos_int8,P@10,0.10366666666666664
+scifact,bm25_cosine_int8,BM25 + cos_int8,nDCG@10,0.7858410430529718
+scifact,bm25_cosine_float,BM25 + cos_float,AP,0.7448513158823344
+scifact,bm25_cosine_float,BM25 + cos_float,RR,0.7521388820199008
+scifact,bm25_cosine_float,BM25 + cos_float,P@10,0.10399999999999998
+scifact,bm25_cosine_float,BM25 + cos_float,nDCG@10,0.7869113149367046
+scifact,hamming,Hamming,AP,0.7405699766800041
+scifact,hamming,Hamming,RR,0.748589155649183
+scifact,hamming,Hamming,P@10,0.10366666666666664
+scifact,hamming,Hamming,nDCG@10,0.7827310596540811
+scifact,hamming_cosine_int8,Hamming + cos_int8,AP,0.7431926248764419
+scifact,hamming_cosine_int8,Hamming + cos_int8,RR,0.7509158635286278
+scifact,hamming_cosine_int8,Hamming + cos_int8,P@10,0.10433333333333332
+scifact,hamming_cosine_int8,Hamming + cos_int8,nDCG@10,0.786149736265109
+scifact,hamming_cosine_float,Hamming + cos_float,AP,0.7437598018920375
+scifact,hamming_cosine_float,Hamming + cos_float,RR,0.7517633266352681
+scifact,hamming_cosine_float,Hamming + cos_float,P@10,0.10466666666666664
+scifact,hamming_cosine_float,Hamming + cos_float,nDCG@10,0.7874666106777924
+scifact,cosine_int8,cos_int8,AP,0.7431972117557266
+scifact,cosine_int8,cos_int8,RR,0.7509204504079126
+scifact,cosine_int8,cos_int8,P@10,0.10433333333333332
+scifact,cosine_int8,cos_int8,nDCG@10,0.786149736265109
+scifact,cosine_int8_cosine_float,cos_int8 + cos_float,AP,0.7437652360966577
+scifact,cosine_int8_cosine_float,cos_int8 + cos_float,RR,0.7517687608398883
+scifact,cosine_int8_cosine_float,cos_int8 + cos_float,P@10,0.10466666666666664
+scifact,cosine_int8_cosine_float,cos_int8 + cos_float,nDCG@10,0.7874666106777924
+scifact,cosine_float,cos_float,AP,0.7437652360966577
+scifact,cosine_float,cos_float,RR,0.7517687608398883
+scifact,cosine_float,cos_float,P@10,0.10466666666666664
+scifact,cosine_float,cos_float,nDCG@10,0.7874666106777924
+scifact,hybrid_hamming,RRF(Hamming),AP,0.7102374471023808
+scifact,hybrid_hamming,RRF(Hamming),RR,0.7200684849578263
+scifact,hybrid_hamming,RRF(Hamming),P@10,0.09899999999999999
+scifact,hybrid_hamming,RRF(Hamming),nDCG@10,0.7536074292483528
+scifact,hybrid_cosine_int8,RRF(cos_int8),AP,0.7175617516601566
+scifact,hybrid_cosine_int8,RRF(cos_int8),RR,0.730333802515903
+scifact,hybrid_cosine_int8,RRF(cos_int8),P@10,0.09933333333333333
+scifact,hybrid_cosine_int8,RRF(cos_int8),nDCG@10,0.7598782113604888
+scifact,hybrid_cosine_float,RRF(cos_float),AP,0.7170695652117214
+scifact,hybrid_cosine_float,RRF(cos_float),RR,0.7285713758565813
+scifact,hybrid_cosine_float,RRF(cos_float),P@10,0.09933333333333333
+scifact,hybrid_cosine_float,RRF(cos_float),nDCG@10,0.7592232108996679
+scifact,baseline,MTEB (Qwen3-8B),AP,0.74137
+scifact,baseline,MTEB (Qwen3-8B),RR,0.749274
+scifact,baseline,MTEB (Qwen3-8B),P@10,0.104
+scifact,baseline,MTEB (Qwen3-8B),nDCG@10,0.78457
+trec-covid,bm25,BM25,AP,0.19494854392190597
+trec-covid,bm25,BM25,RR,0.8845238095238095
+trec-covid,bm25,BM25,P@10,0.636
+trec-covid,bm25,BM25,nDCG@10,0.6053692675252074
+trec-covid,bm25_hamming,BM25 + Hamming,AP,0.3033202519092769
+trec-covid,bm25_hamming,BM25 + Hamming,RR,0.975
+trec-covid,bm25_hamming,BM25 + Hamming,P@10,0.9180000000000001
+trec-covid,bm25_hamming,BM25 + Hamming,nDCG@10,0.8791277332505157
+trec-covid,bm25_cosine_int8,BM25 + cos_int8,AP,0.3077201508216602
+trec-covid,bm25_cosine_int8,BM25 + cos_int8,RR,1.0
+trec-covid,bm25_cosine_int8,BM25 + cos_int8,P@10,0.9159999999999999
+trec-covid,bm25_cosine_int8,BM25 + cos_int8,nDCG@10,0.8844523690130415
+trec-covid,bm25_cosine_float,BM25 + cos_float,AP,0.307674457105508
+trec-covid,bm25_cosine_float,BM25 + cos_float,RR,1.0
+trec-covid,bm25_cosine_float,BM25 + cos_float,P@10,0.91
+trec-covid,bm25_cosine_float,BM25 + cos_float,nDCG@10,0.8789257630432779
+trec-covid,hamming,Hamming,AP,0.39301436381636257
+trec-covid,hamming,Hamming,RR,0.985
+trec-covid,hamming,Hamming,P@10,0.9120000000000001
+trec-covid,hamming,Hamming,nDCG@10,0.8756263165207112
+trec-covid,hamming_cosine_int8,Hamming + cos_int8,AP,0.40703635656805454
+trec-covid,hamming_cosine_int8,Hamming + cos_int8,RR,1.0
+trec-covid,hamming_cosine_int8,Hamming + cos_int8,P@10,0.9259999999999999
+trec-covid,hamming_cosine_int8,Hamming + cos_int8,nDCG@10,0.8954173228988315
+trec-covid,hamming_cosine_float,Hamming + cos_float,AP,0.4057272342568578
+trec-covid,hamming_cosine_float,Hamming + cos_float,RR,0.99
+trec-covid,hamming_cosine_float,Hamming + cos_float,P@10,0.9159999999999999
+trec-covid,hamming_cosine_float,Hamming + cos_float,nDCG@10,0.8850219450708319
+trec-covid,cosine_int8,cos_int8,AP,0.41301280743863267
+trec-covid,cosine_int8,cos_int8,RR,1.0
+trec-covid,cosine_int8,cos_int8,P@10,0.9259999999999999
+trec-covid,cosine_int8,cos_int8,nDCG@10,0.8954173228988315
+trec-covid,cosine_int8_cosine_float,cos_int8 + cos_float,AP,0.41183157965043177
+trec-covid,cosine_int8_cosine_float,cos_int8 + cos_float,RR,0.99
+trec-covid,cosine_int8_cosine_float,cos_int8 + cos_float,P@10,0.9159999999999999
+trec-covid,cosine_int8_cosine_float,cos_int8 + cos_float,nDCG@10,0.8850219450708319
+trec-covid,cosine_float,cos_float,AP,0.4119644946495147
+trec-covid,cosine_float,cos_float,RR,0.99
+trec-covid,cosine_float,cos_float,P@10,0.9159999999999999
+trec-covid,cosine_float,cos_float,nDCG@10,0.8850219450708319
+trec-covid,hybrid_hamming,RRF(Hamming),AP,0.3577880532717303
+trec-covid,hybrid_hamming,RRF(Hamming),RR,0.9766666666666667
+trec-covid,hybrid_hamming,RRF(Hamming),P@10,0.882
+trec-covid,hybrid_hamming,RRF(Hamming),nDCG@10,0.8471671165564413
+trec-covid,hybrid_cosine_int8,RRF(cos_int8),AP,0.36692822213112214
+trec-covid,hybrid_cosine_int8,RRF(cos_int8),RR,0.97
+trec-covid,hybrid_cosine_int8,RRF(cos_int8),P@10,0.8900000000000001
+trec-covid,hybrid_cosine_int8,RRF(cos_int8),nDCG@10,0.8526250886104093
+trec-covid,hybrid_cosine_float,RRF(cos_float),AP,0.3660297491440499
+trec-covid,hybrid_cosine_float,RRF(cos_float),RR,0.9666666666666667
+trec-covid,hybrid_cosine_float,RRF(cos_float),P@10,0.89
+trec-covid,hybrid_cosine_float,RRF(cos_float),nDCG@10,0.8504002960931423
+trec-covid,baseline,MTEB (Qwen3-8B),AP,0.48424
+trec-covid,baseline,MTEB (Qwen3-8B),RR,1.0
+trec-covid,baseline,MTEB (Qwen3-8B),P@10,0.974
+trec-covid,baseline,MTEB (Qwen3-8B),nDCG@10,0.94991
+webis-touche2020,bm25,BM25,AP,0.2293043528386612
+webis-touche2020,bm25,BM25,RR,0.6002546108136171
+webis-touche2020,bm25,BM25,P@10,0.2938775510204082
+webis-touche2020,bm25,BM25,nDCG@10,0.322328192222113
+webis-touche2020,bm25_hamming,BM25 + Hamming,AP,0.23827282840805245
+webis-touche2020,bm25_hamming,BM25 + Hamming,RR,0.5878672348060103
+webis-touche2020,bm25_hamming,BM25 + Hamming,P@10,0.2938775510204082
+webis-touche2020,bm25_hamming,BM25 + Hamming,nDCG@10,0.3332726406734724
+webis-touche2020,bm25_cosine_int8,BM25 + cos_int8,AP,0.2470926972964358
+webis-touche2020,bm25_cosine_int8,BM25 + cos_int8,RR,0.6520975056689342
+webis-touche2020,bm25_cosine_int8,BM25 + cos_int8,P@10,0.31632653061224486
+webis-touche2020,bm25_cosine_int8,BM25 + cos_int8,nDCG@10,0.3623248466217343
+webis-touche2020,bm25_cosine_float,BM25 + cos_float,AP,0.24818871628329975
+webis-touche2020,bm25_cosine_float,BM25 + cos_float,RR,0.6214771622934887
+webis-touche2020,bm25_cosine_float,BM25 + cos_float,P@10,0.3163265306122449
+webis-touche2020,bm25_cosine_float,BM25 + cos_float,nDCG@10,0.3606478640580267
+webis-touche2020,hamming,Hamming,AP,0.23334805425340405
+webis-touche2020,hamming,Hamming,RR,0.5867739403453689
+webis-touche2020,hamming,Hamming,P@10,0.28775510204081634
+webis-touche2020,hamming,Hamming,nDCG@10,0.3288134235084042
+webis-touche2020,hamming_cosine_int8,Hamming + cos_int8,AP,0.24308647128935248
+webis-touche2020,hamming_cosine_int8,Hamming + cos_int8,RR,0.6486961451247165
+webis-touche2020,hamming_cosine_int8,Hamming + cos_int8,P@10,0.3142857142857143
+webis-touche2020,hamming_cosine_int8,Hamming + cos_int8,nDCG@10,0.36006946232116255
+webis-touche2020,hamming_cosine_float,Hamming + cos_float,AP,0.24417875052687205
+webis-touche2020,hamming_cosine_float,Hamming + cos_float,RR,0.618075801749271
+webis-touche2020,hamming_cosine_float,Hamming + cos_float,P@10,0.3163265306122449
+webis-touche2020,hamming_cosine_float,Hamming + cos_float,nDCG@10,0.3596811949226866
+webis-touche2020,cosine_int8,cos_int8,AP,0.2432226824981613
+webis-touche2020,cosine_int8,cos_int8,RR,0.6486961451247165
+webis-touche2020,cosine_int8,cos_int8,P@10,0.3142857142857143
+webis-touche2020,cosine_int8,cos_int8,nDCG@10,0.36006946232116255
+webis-touche2020,cosine_int8_cosine_float,cos_int8 + cos_float,AP,0.2443256161492479
+webis-touche2020,cosine_int8_cosine_float,cos_int8 + cos_float,RR,0.618075801749271
+webis-touche2020,cosine_int8_cosine_float,cos_int8 + cos_float,P@10,0.3163265306122449
+webis-touche2020,cosine_int8_cosine_float,cos_int8 + cos_float,nDCG@10,0.3596811949226866
+webis-touche2020,cosine_float,cos_float,AP,0.24429014814831487
+webis-touche2020,cosine_float,cos_float,RR,0.618075801749271
+webis-touche2020,cosine_float,cos_float,P@10,0.3163265306122449
+webis-touche2020,cosine_float,cos_float,nDCG@10,0.3596811949226866
+webis-touche2020,hybrid_hamming,RRF(Hamming),AP,0.2778295637788754
+webis-touche2020,hybrid_hamming,RRF(Hamming),RR,0.6797282649323465
+webis-touche2020,hybrid_hamming,RRF(Hamming),P@10,0.34285714285714286
+webis-touche2020,hybrid_hamming,RRF(Hamming),nDCG@10,0.3942274735541513
+webis-touche2020,hybrid_cosine_int8,RRF(cos_int8),AP,0.29099730509116695
+webis-touche2020,hybrid_cosine_int8,RRF(cos_int8),RR,0.6822643343051507
+webis-touche2020,hybrid_cosine_int8,RRF(cos_int8),P@10,0.3469387755102041
+webis-touche2020,hybrid_cosine_int8,RRF(cos_int8),nDCG@10,0.4074146972518749
+webis-touche2020,hybrid_cosine_float,RRF(cos_float),AP,0.2903222843264621
+webis-touche2020,hybrid_cosine_float,RRF(cos_float),RR,0.6996720116618075
+webis-touche2020,hybrid_cosine_float,RRF(cos_float),P@10,0.3551020408163265
+webis-touche2020,hybrid_cosine_float,RRF(cos_float),nDCG@10,0.41395641378512005
+webis-touche2020,baseline,MTEB (Qwen3-8B),AP,0.25425
+webis-touche2020,baseline,MTEB (Qwen3-8B),RR,0.575883
+webis-touche2020,baseline,MTEB (Qwen3-8B),P@10,0.31837
+webis-touche2020,baseline,MTEB (Qwen3-8B),nDCG@10,0.35929
