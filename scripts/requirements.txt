@@ -1,0 +1,25 @@
+# Everything needed to reproduce the scrydb-eval experiments.
+# Python >= 3.9 (scrydb's floor); tested on 3.12.
+
+# The library under test — pulls numpy, tqdm and sqlite-vec.
+scrydb>=0.2.0
+
+# scripts/examples/dl.py — fetching indices, qrels and runs from the Hub.
+huggingface_hub>=0.23
+
+# scripts/evaluation/* — scoring runs and building the CSVs/tables.
+pandas>=1.5
+repro_eval>=0.5            # pulls pytrec_eval-terrier
+
+# The plots (imported lazily, only when one is drawn).
+matplotlib>=3.6
+
+# Exact t-based confidence intervals; without it a normal approximation is used.
+scipy>=1.9
+
+# scripts/datasets/beir/* — re-embedding a corpus against an embedding API.
+requests>=2.28
+python-dotenv>=1.0
+
+# Only for scripts/examples/repl.py --semantic (local embedding model).
+sentence-transformers>=3.0
